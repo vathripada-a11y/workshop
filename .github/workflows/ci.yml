@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check homepage exists
-        run: test -f index.html
+        run: test -f indexdd.html
 
       - name: Report success
         run: echo "Basic project check passed"
